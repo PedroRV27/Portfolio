@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel&display=swap">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <img src="img/paginas.png" alt="Logo" class="logo">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <img src="img/avatar.jpg" alt="foto perfil" class="profile-image">
+            <div class="text-content">
+                <h2>Pedro Rodriguez Villalba</h2>
+                <p>GitHub: <a href="https://github.com/PedroRV27" target="_blank">PedroRV27</a></p>
+            </div>
+        </div>
+        <p class="description">¡Hola! Soy Pedro Rodriguez, un apasionado de la informatica. Estoy comprometido a ser Desarrollador de aplicaciones Web.
+            Actualmente tengo el nivel de un desarrollador junior.Estoy dispuesto a formarme para ampliar mi conocimiento Front-end y Back-end.
+        </p>
+    </section>
+
+    <section id="proyectos" class="gallery-section">
+        <h2>Proyectos</h2>
+        <div class="image-gallery">
+            <img src="img/Home Page.jpg" alt="Imagen 1">
+            <img src="img/ahorcado.png" alt="Imagen 2">
+            <img src="img/clock.png" alt="Imagen 3">
+            <img src="img/grocelist.png" alt="Imagen 4">
+            <img src="img/Guessin rgb.png" alt="Imagen 5">
+            <img src="img/parejas.png" alt="Imagen 6">
+        </div>
+    </section>
+
+    <section id="servicios" class="services-section">
+        <h2>Servicios y Trabajos</h2>
+        <div class="service-card">
+            <img src="img/Logo html5.png" alt="HTML Icon">
+            <h3>Desarrollo Front-end</h3>
+            <p>Creación de interfaces de usuario atractivas y funcionales utilizando HTML, CSS y JavaScript.</p>
+        </div>
+        <div class="service-card">
+            <img src="img/css3.png" alt="CSS Icon">
+            <h3>Diseño de Estilos</h3>
+            <p>Estilización de páginas web para lograr una presentación visualmente atractiva y consistente.</p>
+        </div>
+        <div class="service-card">
+            <img src="img/logojs.png" alt="JavaScript Icon">
+            <h3>Interactividad</h3>
+            <p>Implementación de interactividad y dinamismo en sitios web mediante el uso de JavaScript.</p>
+        </div>
+        <div class="service-card">
+            <img src="img/logophp.png" alt="PHP Icon">
+            <h3>Desarrollo Back-end</h3>
+            <p>Construcción de lógica del servidor y bases de datos utilizando PHP para un funcionamiento robusto.</p>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skill-section">
+        <div class="skill">
+          <h2>HTML</h2>
+          <div class="progress-bar">
+            <div class="progress html-progress"></div>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <h2>CSS</h2>
+          <div class="progress-bar">
+            <div class="progress css-progress"></div>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <h2>JavaScript</h2>
+          <div class="progress-bar">
+            <div class="progress js-progress"></div>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <h2>PHP</h2>
+          <div class="progress-bar">
+            <div class="progress php-progress"></div>
+          </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="testimonials">
+            <h2>Testimonios</h2>
+            <div class="testimonial">
+              <img src="img/avatar.jpg" alt="Cliente 1">
+              <div class="testimonial-content">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                <div class="author">- Juan Jose</div>
+              </div>
+            </div>
+        
+            <div class="testimonial">
+              <img src="img/avatar.jpg" alt="Cliente 2">
+              <div class="testimonial-content">
+                <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                <div class="author">- Amelia</div>
+              </div>
+            </div>
+
+            <div class="testimonial">
+                <img src="img/avatar.jpg" alt="Cliente 3">
+                <div class="testimonial-content">
+                  <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                  <div class="author">- Roberto</div>
+                </div>
+              </div>
+
+              <div class="testimonial">
+                <img src="img/avatar.jpg" alt="Cliente 4">
+                <div class="testimonial-content">
+                  <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                  <div class="author">- Guillem</div>
+                </div>
+              </div>             
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2>Ponte en contacto conmigo</h2>
+      <form action="#" method="post" id="formulario-contacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required aria-label="Nombre">
+    
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required aria-label="Correo Electrónico">
+    
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required aria-label="Mensaje"></textarea>
+    
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    
+
+    <footer>
+        <p>© 2023 Pedro Rodriguez. Todos los derechos reservados. Diseño y desarrollo por Pedro Rodriguez. Contáctame en <a href="mailto:pedrorovi27@gmail.com">pedrorovi27@gmail.com</a></p>
+    </footer>
+</body>
+</html>
